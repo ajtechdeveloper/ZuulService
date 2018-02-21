@@ -16,5 +16,6 @@ public class ZuulServiceApplication {
 
 	public static void main(String[] args) throws Exception {
 		SpringApplication.run(ZuulServiceApplication.class,args);
+        logger.info("Zuul Service is up and running...");
 	}
 }
